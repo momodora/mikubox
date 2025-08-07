@@ -72,8 +72,29 @@
     ]
   },
   {
+    "filename": "miku_大降临.png",
+    "label": "大降临",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_失落.png",
     "label": "失落",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_女神.png",
+    "label": "女神",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_待机中.png",
+    "label": "待机中",
     "tags": [
       "miku"
     ]
@@ -95,6 +116,13 @@
   {
     "filename": "miku_生日快乐.png",
     "label": "生日快乐",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_破坏！破坏！.png",
+    "label": "破坏！破坏！",
     "tags": [
       "miku"
     ]
@@ -130,6 +158,13 @@
   {
     "filename": "miku_跨起个小fu脸.jpg",
     "label": "跨起个小fu脸",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_违反！违反！.png",
+    "label": "违反！违反！",
     "tags": [
       "miku"
     ]
