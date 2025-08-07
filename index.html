@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MikuBOX</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>葱葱盒</h1>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 0.5em; flex-wrap: wrap;">
+      <input type="text" id="search" placeholder="搜索表情包关键词..." />
+      <button id="randomBtn" class="tag-btn">随机一个</button>
+    </div>
+    <div id="tags" class="tags"></div>
+  </header>
+  <main>
+    <div id="gallery" class="grid"></div>
+  </main>
+  <footer>
+    <p>Powered by  <a href="https://space.bilibili.com/4235377" target="_blank" rel="noopener noreferrer">未来de残像</a> · 表情包网站</p>
+  </footer>
+
+  <!-- 模态框预览 -->
+  <div id="modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-btn">×</span>
+      <div id="modal-label" style="margin-bottom: 0.8em; font-weight: bold;"></div>
+      <img id="modal-img" src="" alt="预览" />
+      <div style="margin-top: 1em; text-align: center;">
+        <a id="download-btn" href="#" download class="download-button">下载图片</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+<!--崩溃欺骗-->
+<script>
+var OriginTitile=document.title;
+var st;
+document.addEventListener('visibilitychange',function(){
+if(document.hidden){
+document.title="╭(°A°`)╮页面崩溃啦";
+clearTimeout(st);
+}else{
+document.title="(ฅ>ω<*ฅ) 噫又好了~ "+OriginTitile;
+st=setTimeout(function(){
+document.title=OriginTitile;
+},4000);
+}
+});
+</script>
+
+</body>
+</html>
