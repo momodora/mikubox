@@ -58,6 +58,20 @@
     ]
   },
   {
+    "filename": "miku_人类为什么要起床.jpg",
+    "label": "人类为什么要起床",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_你当我是便宜货啊.jpg",
+    "label": "你当我是便宜货啊",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_吃饭团.png",
     "label": "吃饭团",
     "tags": [
@@ -67,6 +81,13 @@
   {
     "filename": "miku_啊.jpg",
     "label": "啊",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_噗.jpg",
+    "label": "噗",
     "tags": [
       "miku"
     ]
@@ -135,8 +156,29 @@
     ]
   },
   {
+    "filename": "miku_自闭.jpg",
+    "label": "自闭",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_葱.png",
     "label": "葱",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_被生活压垮.jpg",
+    "label": "被生活压垮",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_裹紧被子.jpg",
+    "label": "裹紧被子",
     "tags": [
       "miku"
     ]
