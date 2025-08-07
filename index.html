@@ -9,8 +9,11 @@
 </head>
 <body>
   <header>
-    <h1>葱葱盒</h1>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 0.5em; flex-wrap: wrap;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 1em; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 0.5em;">
+        <img src="favicon.png" alt="图标" style="width: 32px; height: 32px;" />
+        <h1 style="margin: 0;">葱葱盒</h1>
+      </div>
       <input type="text" id="search" placeholder="搜索表情包关键词..." />
       <button id="randomBtn" class="tag-btn">随机一个</button>
     </div>
@@ -20,7 +23,7 @@
     <div id="gallery" class="grid"></div>
   </main>
   <footer>
-    <p>Powered by  <a href="https://space.bilibili.com/4235377" target="_blank" rel="noopener noreferrer">未来de残像</a> · 表情包网站</p>
+    <p>Powered by <a href="https://space.bilibili.com/4235377" target="_blank" rel="noopener noreferrer">未来de残像</a> · 表情包网站</p>
   </footer>
 
   <!-- 模态框预览 -->
@@ -37,22 +40,22 @@
 
   <script src="script.js"></script>
 
-<!--崩溃欺骗-->
-<script>
-var OriginTitile=document.title;
-var st;
-document.addEventListener('visibilitychange',function(){
-if(document.hidden){
-document.title="╭(°A°`)╮页面崩溃啦";
-clearTimeout(st);
-}else{
-document.title="(ฅ>ω<*ฅ) 噫又好了~ "+OriginTitile;
-st=setTimeout(function(){
-document.title=OriginTitile;
-},4000);
-}
-});
-</script>
+  <!--崩溃欺骗-->
+  <script>
+  var OriginTitile = document.title;
+  var st;
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+      document.title = "╭(°A°`)╮页面崩溃啦";
+      clearTimeout(st);
+    } else {
+      document.title = "(ฅ>ω<*ฅ) 噫又好了~ " + OriginTitile;
+      st = setTimeout(function () {
+        document.title = OriginTitile;
+      }, 4000);
+    }
+  });
+  </script>
 
 </body>
 </html>
