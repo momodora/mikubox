@@ -136,13 +136,6 @@
     ]
   },
   {
-    "filename": "miku_噗.jpg",
-    "label": "噗",
-    "tags": [
-      "miku"
-    ]
-  },
-  {
     "filename": "miku_失落.png",
     "label": "失落",
     "tags": [
@@ -248,29 +241,8 @@
     ]
   },
   {
-    "filename": "miku_自闭.jpg",
-    "label": "自闭",
-    "tags": [
-      "miku"
-    ]
-  },
-  {
     "filename": "miku_葱.png",
     "label": "葱",
-    "tags": [
-      "miku"
-    ]
-  },
-  {
-    "filename": "miku_被生活压垮.jpg",
-    "label": "被生活压垮",
-    "tags": [
-      "miku"
-    ]
-  },
-  {
-    "filename": "miku_裹紧被子.jpg",
-    "label": "裹紧被子",
     "tags": [
       "miku"
     ]
