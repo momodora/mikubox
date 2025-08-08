@@ -129,6 +129,13 @@
     ]
   },
   {
+    "filename": "miku_吃棒棒糖.jpg",
+    "label": "吃棒棒糖",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_吃饭团.png",
     "label": "吃饭团",
     "tags": [
@@ -178,6 +185,13 @@
     ]
   },
   {
+    "filename": "miku_嫌弃.gif",
+    "label": "嫌弃",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_害怕.gif",
     "label": "害怕",
     "tags": [
@@ -194,6 +208,13 @@
   {
     "filename": "miku_恐龙生气.jpg",
     "label": "恐龙生气",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_悲伤.jpg",
+    "label": "悲伤",
     "tags": [
       "miku"
     ]
