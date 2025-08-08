@@ -15,9 +15,9 @@ function updateGridColumns() {
   let cols = 3; // 默认 3 列
   const width = window.innerWidth;
 
-  if (width >= 1280) cols = 8;
-  else if (width >= 1024) cols = 7;
-  else if (width >= 768) cols = 6;
+  if (width >= 1280) cols = 6;
+  else if (width >= 1024) cols = 6;
+  else if (width >= 768) cols = 5;
   else if (width >= 640) cols = 5;
   else if (width >= 480) cols = 4;
 
