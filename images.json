@@ -215,13 +215,6 @@
     ]
   },
   {
-    "filename": "miku_双马尾飞行.gif",
-    "label": "双马尾飞行",
-    "tags": [
-      "miku"
-    ]
-  },
-  {
     "filename": "miku_只要有初音，生活就有希望.jpg",
     "label": "只要有初音，生活就有希望",
     "tags": [
@@ -469,6 +462,13 @@
   {
     "filename": "miku_摇摆.gif",
     "label": "摇摆",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_旋转双马尾.gif",
+    "label": "旋转双马尾",
     "tags": [
       "miku"
     ]
