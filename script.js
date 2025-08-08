@@ -9,6 +9,21 @@ function shuffleArray(array) {
   return array;
 }
 
+// 根据窗口宽度设置列数
+function updateGridColumns() {
+  const gallery = document.getElementById('gallery');
+  let cols = 3; // 默认 3 列
+  const width = window.innerWidth;
+
+  if (width >= 1280) cols = 8;
+  else if (width >= 1024) cols = 7;
+  else if (width >= 768) cols = 6;
+  else if (width >= 640) cols = 5;
+  else if (width >= 480) cols = 4;
+
+  gallery.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+}
+
 function renderGallery(images) {
   const container = document.getElementById('gallery');
   container.innerHTML = '';
@@ -28,6 +43,8 @@ function renderGallery(images) {
     div.appendChild(label);
     container.appendChild(div);
   });
+
+  updateGridColumns(); // 渲染后更新列数
 }
 
 function renderTags(images) {
@@ -85,23 +102,8 @@ fetch('images.json')
     setupSearch();
   });
 
-
-document.getElementById('randomBtn').addEventListener('click', () => {
-  if (allImages.length === 0) return;
-
-  const randomIndex = Math.floor(Math.random() * allImages.length);
-  const randomImg = allImages[randomIndex];
-
-  // 使用模态框展示而不是跳转
-  const modal = document.getElementById('modal');
-  const modalImg = document.getElementById('modal-img');
-  const downloadBtn = document.getElementById('download-btn');
-
-  modalImg.src = 'images/' + randomImg.filename;
-  downloadBtn.href = 'images/' + randomImg.filename;
-  modal.style.display = 'flex';
-});
-
+// 监听窗口大小变化动态调整列数
+window.addEventListener('resize', updateGridColumns);
 
 // 模态框功能
 const modal = document.getElementById('modal');
