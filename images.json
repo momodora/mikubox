@@ -108,8 +108,22 @@
     ]
   },
   {
+    "filename": "miku_人类为什么要起床.jpg",
+    "label": "人类为什么要起床",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_你就是歌姬吧.jpg",
     "label": "你就是歌姬吧",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_你当我是便宜货啊.jpg",
+    "label": "你当我是便宜货啊",
     "tags": [
       "miku"
     ]
@@ -136,6 +150,20 @@
     ]
   },
   {
+    "filename": "miku_噗.jpg",
+    "label": "噗",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_大降临.png",
+    "label": "大降临",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_失落.png",
     "label": "失落",
     "tags": [
@@ -143,8 +171,22 @@
     ]
   },
   {
+    "filename": "miku_女神.png",
+    "label": "女神",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_害怕.gif",
     "label": "害怕",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_待机中.png",
+    "label": "待机中",
     "tags": [
       "miku"
     ]
@@ -234,6 +276,13 @@
     ]
   },
   {
+    "filename": "miku_破坏！破坏！.png",
+    "label": "破坏！破坏！",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_等下你家米就没了.jpg",
     "label": "等下你家米就没了",
     "tags": [
@@ -241,8 +290,29 @@
     ]
   },
   {
+    "filename": "miku_自闭.jpg",
+    "label": "自闭",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
     "filename": "miku_葱.png",
     "label": "葱",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_被生活压垮.jpg",
+    "label": "被生活压垮",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_裹紧被子.jpg",
+    "label": "裹紧被子",
     "tags": [
       "miku"
     ]
@@ -271,6 +341,20 @@
   {
     "filename": "miku_这简直叹为观止.jpg",
     "label": "这简直叹为观止",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_违反！违反！.png",
+    "label": "违反！违反！",
+    "tags": [
+      "miku"
+    ]
+  },
+  {
+    "filename": "miku_遇到困难睡大觉.jpg",
+    "label": "遇到困难睡大觉",
     "tags": [
       "miku"
     ]

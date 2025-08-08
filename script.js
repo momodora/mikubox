@@ -1,6 +1,14 @@
 let allImages = [];
 let activeTag = null;
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 function renderGallery(images) {
   const container = document.getElementById('gallery');
   container.innerHTML = '';
@@ -71,11 +79,12 @@ function setupSearch() {
 fetch('images.json')
   .then(res => res.json())
   .then(data => {
-    allImages = data;
+    allImages = shuffleArray(data);
     renderTags(allImages);
     renderGallery(allImages);
     setupSearch();
   });
+
 
 document.getElementById('randomBtn').addEventListener('click', () => {
   if (allImages.length === 0) return;
